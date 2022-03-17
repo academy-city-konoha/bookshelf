@@ -54,15 +54,15 @@ export const Campaigns = [
     ]
   },
   {
-    title: 'test',
-    label: '테스트',
+    title: '',
+    label: '',
     platform: 'roll20',
     npcs: [
     ],
     logs: [
       {
-        index: '1',
-        name: '1화 테스트',
+        index: '',
+        name: '',
         images: [
           {
             id: ``,
@@ -76,6 +76,19 @@ export const Campaigns = [
           },
         ],
       },
+    ]
+  }
+  {
+    title: 'TEST',
+    label: '테스트',
+    platform: 'roll20',
+    npcs: [
+    ],
+    logs: [
+      {
+        index: '1',
+        name: '1화 테스트',
+      }
     ]
   }
 ]
