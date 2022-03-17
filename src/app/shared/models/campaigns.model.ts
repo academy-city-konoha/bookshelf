@@ -102,6 +102,16 @@ export const Campaigns = [
             file: '',
           },
         ],
+      },
+      {
+        index: '2',
+        name: '2화 테스트, 잘린 이미지 복구 테스트',
+        images: [
+          {
+            id: ``,
+            file: '',
+          },
+        ],
       }
     ]
   }
