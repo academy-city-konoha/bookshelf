@@ -77,7 +77,7 @@ export const Campaigns = [
         ],
       },
     ]
-  }
+  },
   {
     title: 'TEST',
     label: '테스트',
