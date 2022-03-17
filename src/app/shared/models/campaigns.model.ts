@@ -83,11 +83,25 @@ export const Campaigns = [
     label: '테스트',
     platform: 'roll20',
     npcs: [
+      {
+        name: '[NPC]실마',
+        avatar: 'NPC118-.jpg',
+      },
+      {
+        name: '케이',
+        avatar: 'pc_kay.png',
+      },
     ],
     logs: [
       {
         index: '1',
         name: '1화 테스트',
+        images: [
+          {
+            id: ``,
+            file: '',
+          },
+        ],
       }
     ]
   }
