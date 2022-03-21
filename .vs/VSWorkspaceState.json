@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github",
+    "\\.github\\workflows",
+    "\\e2e",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\shared",
+    "\\src\\app\\shared\\models",
+    "\\src\\campaigns",
+    "\\src\\campaigns\\TEST"
+  ],
+  "SelectedNode": "\\src\\app\\shared\\models\\campaigns.model.ts",
+  "PreviewInSolutionExplorer": false
+}

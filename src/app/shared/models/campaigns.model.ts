@@ -96,22 +96,10 @@ export const Campaigns = [
       {
         index: '1',
         name: '1화 테스트',
-        images: [
-          {
-            id: ``,
-            file: '',
-          },
-        ],
       },
       {
         index: '2',
         name: '2화 테스트, 잘린 이미지 복구 테스트',
-        images: [
-          {
-            id: ``,
-            file: '',
-          },
-        ],
       }
     ]
   }
