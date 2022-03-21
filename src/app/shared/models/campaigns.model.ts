@@ -25,9 +25,38 @@ export interface Image {
 
 export const Campaigns = [
   {
+    title: 'OPEN',
+    label: '코노하 중앙도서관',
+    platform: 'roll20',
+    npcs: [
+      {
+        name: '',
+        avatar: '',
+      },
+    ],
+    logs: [
+      {
+        index: '1',
+        name: '자료열람실 안내문',
+        images: [
+          {
+            id: `Myh32HT9QbLwiaINwIV`,
+            file: '0.jpg',
+          },
+        ],
+        interfaces: [
+          {
+            id: ``,
+            file: '',
+          },
+        ],
+      },
+    ]
+  },
+  {
     title: '',
     label: '',
-    platform: 'FVTT',
+    platform: 'roll20',
     npcs: [
       {
         name: '',
@@ -56,7 +85,7 @@ export const Campaigns = [
   {
     title: '',
     label: '',
-    platform: 'roll20',
+    platform: 'FVTT',
     npcs: [
     ],
     logs: [
