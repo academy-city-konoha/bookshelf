@@ -54,6 +54,68 @@ export const Campaigns = [
     ]
   },
   {
+    title: 'ANOM',
+    label: '마나이상현상 사전',
+    platform: 'roll20',
+    npcs: [
+      {
+        name: '',
+        avatar: '',
+      },
+    ],
+    logs: [
+      {
+        index: '1',
+        name: '마인드 웜',
+        images: [
+          {
+            id: `MyhL2_Vvo5KWJRd9Opj`,
+            file: '0.jpg',
+          },
+          {
+            id: `MyhL5bbRs7NGSXAlNa7`,
+            file: '1.jpg',
+          },
+          {
+            id: `MyhLGLIsWhGTCtpjejZ`,
+            file: '2.jpg',
+          },
+        ],
+        interfaces: [
+          {
+            id: `MyhL2_Vvo5KWJRd9Opj`,
+            file: '0.jpg',
+          },
+        ],
+      },
+    ]
+  },
+  {
+    title: 'TEST',
+    label: '테스트',
+    platform: 'roll20',
+    npcs: [
+      {
+        name: '[NPC]실마',
+        avatar: 'NPC118-.jpg',
+      },
+      {
+        name: '케이',
+        avatar: 'pc_kay.png',
+      },
+    ],
+    logs: [
+      {
+        index: '1',
+        name: '1화 테스트',
+      },
+      {
+        index: '2',
+        name: '2화 테스트, 잘린 이미지 복구 테스트',
+      }
+    ]
+  },
+  {
     title: '',
     label: '',
     platform: 'roll20',
@@ -105,31 +167,6 @@ export const Campaigns = [
           },
         ],
       },
-    ]
-  },
-  {
-    title: 'TEST',
-    label: '테스트',
-    platform: 'roll20',
-    npcs: [
-      {
-        name: '[NPC]실마',
-        avatar: 'NPC118-.jpg',
-      },
-      {
-        name: '케이',
-        avatar: 'pc_kay.png',
-      },
-    ],
-    logs: [
-      {
-        index: '1',
-        name: '1화 테스트',
-      },
-      {
-        index: '2',
-        name: '2화 테스트, 잘린 이미지 복구 테스트',
-      }
     ]
   }
 ]

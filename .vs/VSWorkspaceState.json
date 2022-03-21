@@ -1,16 +1,17 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github",
-    "\\.github\\workflows",
-    "\\e2e",
     "\\src",
     "\\src\\app",
     "\\src\\app\\shared",
     "\\src\\app\\shared\\models",
+    "\\src\\assets",
+    "\\src\\assets\\images",
     "\\src\\campaigns",
-    "\\src\\campaigns\\TEST"
+    "\\src\\campaigns\\TEST",
+    "\\src\\campaigns\\TEST\\images",
+    "\\src\\campaigns\\TEST\\logs"
   ],
-  "SelectedNode": "\\src\\app\\shared\\models\\campaigns.model.ts",
+  "SelectedNode": "\\src\\assets\\images\\pc_kay.png",
   "PreviewInSolutionExplorer": false
 }
