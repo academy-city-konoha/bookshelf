@@ -138,6 +138,26 @@ export const Campaigns = [
         index: '3',
         name: '2화',
       },
+      {
+        index: '4',
+        name: '3화',
+      },
+      {
+        index: '5',
+        name: '4화',
+      },
+      {
+        index: '6',
+        name: '5화',
+      },
+      {
+        index: '7',
+        name: '6화',
+      },
+      {
+        index: '8',
+        name: '에필로그',
+      },
     ]
   },
   {
