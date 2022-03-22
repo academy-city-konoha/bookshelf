@@ -116,6 +116,27 @@ export const Campaigns = [
     ]
   },
   {
+    title: 'WHITE',
+    label: '하얀주인의 메아리',
+    platform: 'roll20',
+    npcs: [
+      {
+        name: '',
+        avatar: '',
+      },
+    ],
+    logs: [
+      {
+        index: '1',
+        name: '첫 만남',
+      },
+      {
+        index: '2',
+        name: '1화',
+      },
+    ]
+  },
+  {
     title: '',
     label: '',
     platform: 'roll20',
