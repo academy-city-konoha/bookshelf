@@ -134,6 +134,10 @@ export const Campaigns = [
         index: '2',
         name: '1화',
       },
+      {
+        index: '3',
+        name: '2화',
+      },
     ]
   },
   {
