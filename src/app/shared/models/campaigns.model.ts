@@ -91,31 +91,6 @@ export const Campaigns = [
     ]
   },
   {
-    title: 'TEST',
-    label: '테스트',
-    platform: 'roll20',
-    npcs: [
-      {
-        name: '[NPC]실마',
-        avatar: 'NPC118-.jpg',
-      },
-      {
-        name: '케이',
-        avatar: 'pc_kay.png',
-      },
-    ],
-    logs: [
-      {
-        index: '1',
-        name: '1화 테스트',
-      },
-      {
-        index: '2',
-        name: '2화 테스트, 잘린 이미지 복구 테스트',
-      }
-    ]
-  },
-  {
     title: 'WHITE',
     label: '하얀주인의 메아리',
     platform: 'roll20',
@@ -158,6 +133,31 @@ export const Campaigns = [
         index: '8',
         name: '에필로그',
       },
+    ]
+  },
+  {
+    title: 'FUTURE',
+    label: '미래로 보낸 편지',
+    platform: 'roll20',
+    npcs: [
+      {
+        name: '[NPC]실마',
+        avatar: 'NPC118-.jpg',
+      },
+      {
+        name: '케이',
+        avatar: 'pc_kay.png',
+      },
+    ],
+    logs: [
+      {
+        index: '1',
+        name: '1화',
+      },
+      {
+        index: '2',
+        name: '2화',
+      }
     ]
   },
   {
