@@ -157,7 +157,7 @@ export const Campaigns = [
       {
         index: '2',
         name: '2화',
-      }
+      },
       {
         index: '3',
         name: '3화',
