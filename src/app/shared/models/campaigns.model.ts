@@ -311,6 +311,35 @@ export const Campaigns = [
     ]
   },
   {
+    title: 'RECRUIT',
+    label: '동료 모집',
+    platform: 'roll20',
+    npcs: [
+      {
+        name: '[NPC]실마',
+        avatar: 'NPC118-.jpg',
+      },
+      {
+        name: '케이',
+        avatar: 'pc_kay.png',
+      },
+    ],
+    logs: [
+      {
+        index: '1',
+        name: '1화',
+      },
+      {
+        index: '2',
+        name: '2화',
+      },
+      {
+        index: '3',
+        name: '3화',
+      }
+    ]
+  },
+  {
     title: '',
     label: '',
     platform: 'roll20',
