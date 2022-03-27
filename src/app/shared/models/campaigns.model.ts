@@ -342,7 +342,7 @@ export const Campaigns = [
   {
     title: 'TEST2',
     label: 'FVTT테스트',
-    platform: 'FVTTTEST2',
+    platform: 'FVTTDW',
     npcs: [
     ],
     logs: [
