@@ -340,6 +340,19 @@ export const Campaigns = [
     ]
   },
   {
+    title: 'TEST2',
+    label: 'FVTT테스트',
+    platform: 'FVTT',
+    npcs: [
+    ],
+    logs: [
+      {
+        index: '1',
+        name: '1',
+      }
+    ]
+  },
+  {
     title: '',
     label: '',
     platform: 'roll20',
