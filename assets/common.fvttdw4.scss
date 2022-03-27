@@ -1,0 +1,151 @@
+.vtt #chat-log .message {
+  background: #fff;
+  font-family: "Alegreya", serif; }
+  .vtt #chat-log .message .message-sender {
+    font-family: "Alegreya", serif; }
+  .vtt #chat-log .message .chat-title {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-left: 0;
+    border-right: 0;
+    padding: 4px 0; }
+  .vtt #chat-log .message .item-icon {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 40px;
+    flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px; }
+  .vtt #chat-log .message .cell__title {
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 1;
+    margin: 0;
+    border: 0; }
+  .vtt #chat-log .message.whisper {
+    background: #e0ecff; }
+  .vtt #chat-log .message .result {
+    padding: 0;
+    margin: 25px 0;
+    border: 2px solid;
+    border-left: 0;
+    border-right: 0; }
+  .vtt #chat-log .message .result-label {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+    padding: 10px;
+    background: #efefef; }
+  .vtt #chat-log .message .result-details {
+    padding: 10px 10px 0;
+    margin-bottom: 10px; }
+  .vtt #chat-log .message .result-choices {
+    margin: 10px 0; }
+  .vtt #chat-log .message .failure {
+    color: #b31a1a; }
+  .vtt #chat-log .message .partial {
+    color: #000; }
+  .vtt #chat-log .message .success {
+    color: #1a6dc3; }
+  .vtt #chat-log .message .critical {
+    color: #037307; }
+
+.vtt #chat-log .message-sender {
+  font-size: 12px; }
+
+.vtt #chat-log .cell__title {
+  font-family: "Metamorphous", serif;
+  font-weight: bold;
+  font-size: 16px;
+  border-bottom: 2px solid #000;
+  margin-bottom: 15px; }
+
+.vtt #chat-log h1,
+.vtt #chat-log h2,
+.vtt #chat-log h3,
+.vtt #chat-log h4,
+.vtt #chat-log h5 {
+  font-family: "Metamorphous", serif;
+  font-weight: bold; }
+
+.vtt #chat-log .row {
+  font-size: 13px; }
+
+.vtt #chat-log .dice-roll .dice-formula {
+  cursor: pointer; }
+  .vtt #chat-log .dice-roll .dice-formula:hover, .vtt #chat-log .dice-roll .dice-formula:focus {
+    -webkit-box-shadow: 0 0 5px rgba(91, 112, 148, 0.25);
+    box-shadow: 0 0 5px rgba(91, 112, 148, 0.25);
+    background-color: #bcc8de; }
+
+.vtt #chat-log .message-content .button {
+  display: block;
+  position: relative;
+  margin: 5px 0;
+  line-height: 24px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid #999;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 2px #FFF inset;
+  box-shadow: 0 0 2px #FFF inset;
+  word-break: break-all;
+  font-family: "Alegreya", serif; }
+
+.vtt #chat-log .message-content .chat-damage-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 5px;
+  margin: 5px 0; }
+
+.vtt #chat-log .message-content .xp-button,
+.vtt #chat-log .message-content .chat-damage-buttons .button {
+  background: #2d3748;
+  -webkit-box-shadow: 0 0 2px #7e94bd inset;
+  box-shadow: 0 0 2px #7e94bd inset;
+  border-color: #000;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer; }
+  .vtt #chat-log .message-content .xp-button:hover,
+  .vtt #chat-log .message-content .chat-damage-buttons .button:hover {
+    background: #5b7094;
+    -webkit-box-shadow: 0 0 2px #bcc8de inset;
+    box-shadow: 0 0 2px #bcc8de inset; }
+  .vtt #chat-log .message-content .xp-button.button-disabled:hover,
+  .vtt #chat-log .message-content .chat-damage-buttons .button.button-disabled:hover {
+    background: #2d3748;
+    -webkit-box-shadow: 0 0 2px #7e94bd inset;
+    box-shadow: 0 0 2px #7e94bd inset; }
+  .vtt #chat-log .message-content .xp-button.damage,
+  .vtt #chat-log .message-content .chat-damage-buttons .button.damage {
+    background: rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 0 5px 1px rgba(179, 26, 26, 0.4);
+    box-shadow: inset 0 0 5px 1px rgba(179, 26, 26, 0.4);
+    border-color: #8a0505;
+    color: #000; }
+    .vtt #chat-log .message-content .xp-button.damage:hover,
+    .vtt #chat-log .message-content .chat-damage-buttons .button.damage:hover {
+      background: #db4d4d;
+      color: #fff; }
+  .vtt #chat-log .message-content .xp-button.heal,
+  .vtt #chat-log .message-content .chat-damage-buttons .button.heal {
+    background: rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 0 5px 1px rgba(3, 115, 7, 0.4);
+    box-shadow: inset 0 0 5px 1px rgba(3, 115, 7, 0.4);
+    border-color: #185c00;
+    color: #000; }
+    .vtt #chat-log .message-content .xp-button.heal:hover,
+    .vtt #chat-log .message-content .chat-damage-buttons .button.heal:hover {
+      background: #15991a;
+      color: #fff; }
+
+.vtt #chat-log .message-content .button-disabled {
+  opacity: 0.5; }
+
+.vtt #chat-form textarea {
+  background: #fff; }
