@@ -340,15 +340,19 @@ export const Campaigns = [
     ]
   },
   {
-    title: 'TEST2',
-    label: 'FVTT테스트',
-    platform: 'FVTTDW4',
+    title: 'REDLIGHT',
+    label: '붉은 빛',
+    platform: 'roll20',
     npcs: [
     ],
     logs: [
       {
         index: '1',
-        name: '1',
+        name: '1화',
+      },
+      {
+        index: '2',
+        name: '2화',
       }
     ]
   },
