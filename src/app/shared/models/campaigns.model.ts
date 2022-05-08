@@ -92,7 +92,7 @@ export const Campaigns = [
   },
   {
     title: 'WHITE',
-    label: '하얀주인의 메아리',
+    label: '하얀주인의 메아리(2nd 주말팀 01)',
     platform: 'roll20',
     npcs: [
       {
@@ -137,7 +137,7 @@ export const Campaigns = [
   },
   {
     title: 'FUTURE',
-    label: '미래로 보낸 편지',
+    label: '미래로 보낸 편지(2nd 주말팀 02)',
     platform: 'roll20',
     npcs: [
       {
@@ -234,7 +234,7 @@ export const Campaigns = [
   },
   {
     title: 'MOHEOM',
-    label: '모험의 시작',
+    label: '모험의 시작(2nd 주말팀 03)',
     platform: 'roll20',
     npcs: [
       {
@@ -267,7 +267,7 @@ export const Campaigns = [
   },
   {
     title: 'FOREST',
-    label: '숲의 아이',
+    label: '숲의 아이(2nd 주말팀 04)',
     platform: 'roll20',
     npcs: [
       {
@@ -312,7 +312,7 @@ export const Campaigns = [
   },
   {
     title: 'RECRUIT',
-    label: '동료 모집',
+    label: '동료 모집(2nd 주말팀 05)',
     platform: 'roll20',
     npcs: [
       {
@@ -341,7 +341,7 @@ export const Campaigns = [
   },
   {
     title: 'REDLIGHT',
-    label: '붉은 빛',
+    label: '붉은 빛(2nd 주말팀 06)',
     platform: 'roll20',
     npcs: [
     ],
@@ -353,6 +353,222 @@ export const Campaigns = [
       {
         index: '2',
         name: '2화',
+      },
+      {
+        index: '3',
+        name: '3화',
+      },
+      {
+        index: '4',
+        name: '4화',
+      },
+      {
+        index: '5',
+        name: '5화',
+      }
+    ]
+  },
+  {
+    title: 'MAGICALGIRL',
+    label: '마법소녀의 비밀(2nd 주말팀 외전)',
+    platform: 'roll20',
+    npcs: [
+    ],
+    logs: [
+      {
+        index: '1',
+        name: '1화',
+      },
+      {
+        index: '2',
+        name: '2화',
+      },
+      {
+        index: '3',
+        name: '3화',
+      }
+    ]
+  },
+  {
+    title: 'REORGANIZE',
+    label: '재정비(2nd 주말팀 07)',
+    platform: 'roll20',
+    npcs: [
+    ],
+    logs: [
+      {
+        index: '1',
+        name: '1화',
+      }
+    ]
+  },
+  {
+    title: 'DREAMWAY',
+    label: '꿈으로 가는 길(2nd 주말팀 08)',
+    platform: 'roll20',
+    npcs: [
+    ],
+    logs: [
+      {
+        index: '1',
+        name: '1화',
+      },
+      {
+        index: '2',
+        name: '2화',
+      },
+      {
+        index: '3',
+        name: '3화',
+      },
+      {
+        index: '4',
+        name: '4화',
+      },
+      {
+        index: '5',
+        name: '5화',
+      }
+    ]
+  },
+  {
+    title: 'FAIRYYFIREWKEND',
+    label: '요정의 불꽃(2nd 주말팀 09)',
+    platform: 'roll20',
+    npcs: [
+    ],
+    logs: [
+      {
+        index: '1',
+        name: '1화',
+      },
+      {
+        index: '2',
+        name: '2화',
+      },
+      {
+        index: '3',
+        name: '3화',
+      }
+    ]
+  },
+  {
+    title: '2NDWEEKEND10',
+    label: '제목 미정(2nd 주말팀 10)',
+    platform: 'roll20',
+    npcs: [
+    ],
+    logs: [
+      {
+        index: '1',
+        name: '1화',
+      },
+      {
+        index: '2',
+        name: '2화',
+      },
+      {
+        index: '3',
+        name: '3화',
+      },
+      {
+        index: '4',
+        name: '4화',
+      },
+      {
+        index: '5',
+        name: '5화',
+      },
+      {
+        index: '6',
+        name: '6화',
+      },
+      {
+        index: '7',
+        name: '7화',
+      },
+      {
+        index: '8',
+        name: '8화',
+      },
+      {
+        index: '9',
+        name: '9화',
+      },
+      {
+        index: '10',
+        name: '10화',
+      },
+      {
+        index: '11',
+        name: '11화',
+      },
+      {
+        index: '12',
+        name: '12화',
+      },
+      {
+        index: '13',
+        name: '13화',
+      },
+      {
+        index: '14',
+        name: '14화',
+      },
+      {
+        index: '15',
+        name: '15화',
+      },
+      {
+        index: '16',
+        name: '16화',
+      },
+      {
+        index: '17',
+        name: '17화',
+      },
+      {
+        index: '18',
+        name: '18화',
+      },
+      {
+        index: '19',
+        name: '19화',
+      },
+      {
+        index: '20',
+        name: '20화',
+      },
+      {
+        index: '21',
+        name: '21화',
+      },
+      {
+        index: '22',
+        name: '22화',
+      },
+      {
+        index: '23',
+        name: '23화',
+      },
+      {
+        index: '24',
+        name: '24화',
+      },
+      {
+        index: '25',
+        name: '25화',
+      },
+      {
+        index: '26',
+        name: '26화',
+      },
+      {
+        index: '27',
+        name: '27화',
+        {
+        index: '28',
+        name: '28화',
       }
     ]
   },
