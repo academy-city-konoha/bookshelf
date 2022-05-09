@@ -132,7 +132,7 @@ export const Campaigns = [
       {
         index: '8',
         name: '에필로그',
-      },
+      }
     ]
   },
   {
@@ -566,7 +566,8 @@ export const Campaigns = [
       {
         index: '27',
         name: '27화',
-        {
+      },
+      {
         index: '28',
         name: '28화',
       }
