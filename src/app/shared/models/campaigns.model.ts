@@ -570,6 +570,94 @@ export const Campaigns = [
       {
         index: '28',
         name: '28화',
+      }.
+      {
+        index: '29',
+        name: '29화',
+      },
+      {
+        index: '30',
+        name: '30화',
+      },
+      {
+        index: '31',
+        name: '31화',
+      },
+      {
+        index: '32',
+        name: '32화',
+      },
+      {
+        index: '33',
+        name: '33화',
+      },
+      {
+        index: '34',
+        name: '34화',
+      },
+      {
+        index: '35',
+        name: '35화',
+      },
+      {
+        index: '36',
+        name: '36화',
+      },
+      {
+        index: '37',
+        name: '37화',
+      },
+      {
+        index: '38',
+        name: '38화',
+      },
+      {
+        index: '39',
+        name: '39화',
+      },
+      {
+        index: '40',
+        name: '40화',
+      },
+      {
+        index: '41',
+        name: '41화',
+      },
+      {
+        index: '42',
+        name: '42화',
+      },
+      {
+        index: '43',
+        name: '43화',
+      },
+      {
+        index: '44',
+        name: '44화',
+      },
+      {
+        index: '45',
+        name: '45화',
+      },
+      {
+        index: '46',
+        name: '46화',
+      },
+      {
+        index: '47',
+        name: '47화',
+      },
+      {
+        index: '48',
+        name: '48화',
+      },
+      {
+        index: '49',
+        name: '49화',
+      },
+      {
+        index: '50',
+        name: '50화',
       }
     ]
   },
