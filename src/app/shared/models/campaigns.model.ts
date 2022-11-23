@@ -504,7 +504,7 @@ export const Campaigns = [
       {
         index: '28',
         name: '28화',
-      }.
+      },
       {
         index: '29',
         name: '29화',
